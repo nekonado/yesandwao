@@ -1,0 +1,25 @@
+{
+  "name": "yesandwao",
+  "version": "1.0.0",
+  "description": "yesandwao website source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "c": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queuek/yesandwao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/queuek/yesandwao/issues"
+  },
+  "homepage": "https://github.com/queuek/yesandwao#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "typescript": "^4.9.4"
+  }
+}
