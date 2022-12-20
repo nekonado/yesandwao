@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc",
     "build": "webpack",
-    "cb": "yarn compile && yarn build"
+    "cb": "yarn compile && yarn build",
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "dev": "yarn start && yarn watch"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
     "@types/node": "^18.11.17",
     "typescript": "^4.9.4",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }
