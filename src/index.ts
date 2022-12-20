@@ -1,1 +1,3 @@
-console.log("Hellom, World");
+import { hello } from "./foo.js";
+
+hello();

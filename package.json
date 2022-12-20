@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "c": "npx tsc"
+    "compile": "tsc",
+    "build": "webpack",
+    "cb": "yarn compile && yarn build"
   },
   "repository": {
     "type": "git",
